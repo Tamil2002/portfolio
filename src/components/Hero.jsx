@@ -95,7 +95,23 @@ const Hero = () => {
             <p><strong>Duration:</strong> Oct 2024 – Till Now</p>
           </div>
         </div>
-
+        <h2 className="project-heading">Responsibilities</h2>
+    <div className="project-card">
+          <ul className="project-list">
+            <li>Developed a responsive E-Commerce web application with a Lovehoney Decision feature.</li><br/>
+            <li>Built interactive UI using HTML5, CSS3, Bootstrap, JavaScript, jQuery, React.js.</li><br/>
+            <li>Implemented decision-based logic.</li><br/>
+            <li>Integrated frontend with backend APIs.</li><br/>
+            <li>Designed reusable React.js components with hooks.</li><br/>
+            <li>Ensured cross-browser compatibility and mobile responsiveness.</li><br/>
+            <li>Optimized performance using code splitting and lazy loading.</li><br/>
+            <li>Collaborated with team members and conducted code reviews.</li><br/>
+            <li>Customized and maintained WordPress components.</li><br/>
+            <li>Managed MySQL database operations.</li><br/>
+            <li>Debugged and resolved technical issues.</li><br/>
+            <li>Maintained clean, reusable, and well-documented code.</li>
+          </ul>
+        </div>
         {/* ================= CONTACT ================= */}
         <div className="content-section">
           <h2 className="section-heading">Contact</h2>

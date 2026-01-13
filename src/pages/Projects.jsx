@@ -30,7 +30,7 @@ const Projects = () => {
           </p><br/>
 
           <p>
-            <strong>Project Name:</strong> Project-1 | E-Commerce | Lovehoney
+            <strong>Project Name:</strong> Project-1 | E-Commerce | Minted
           </p><br/>
 
           <p>
