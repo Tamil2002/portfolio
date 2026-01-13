@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./Contact.css";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
