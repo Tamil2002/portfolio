@@ -1,0 +1,137 @@
+.project-section {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  margin-top: 16px;              /* 🔥 reduced gap */
+}
+
+/* ================= CONTAINER ================= */
+.project-container {
+  
+  margin: 0 auto;
+   padding: 30px 60px; 
+}
+
+/* ================= PROJECT HEADING ================= */
+.project-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 18px 0 8px;            /* 🔥 tight spacing */
+  border-left: 4px solid #6c7cff;
+  padding-left: 12px;
+  color: #fff;
+}
+
+/* ================= PROJECT CARD ================= */
+.project-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 14px;                 /* 🔥 reduced */
+  margin-bottom: 14px;           /* 🔥 less gap */
+}
+
+/* ================= PROJECT TEXT ================= */
+.project-text {
+  font-size: 14px;
+  line-height: 1.6;              /* 🔥 compact */
+  color: #ccc;
+  margin-bottom: 6px;
+}
+
+/* Paragraphs inside card */
+.project-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+/* Labels */
+.project-card strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ================= RESPONSIBILITIES LIST ================= */
+.project-list {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+
+.project-list li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 6px;            /* 🔥 reduced */
+}
+
+/* ================= TECH STACK ================= */
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.project-skills span {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+  .project-container {
+    padding: 18px 14px;
+  }
+
+  .project-heading {
+    font-size: 20px;
+    margin: 14px 0 6px;
+    padding-left: 10px;
+  }
+
+  .project-card {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .project-text,
+  .project-card p {
+    font-size: 13.5px;
+  }
+
+  .project-list li {
+    font-size: 13.5px;
+    margin-bottom: 5px;
+  }
+
+  .project-skills span {
+    font-size: 11.5px;
+    padding: 5px 10px;
+  }
+}
+/* ================= FOOTER ================= */
+.project-footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 22px 10px;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.project-footer a {
+  color: #aaa;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-footer a:hover {
+  color: #6c7cff;
+}
